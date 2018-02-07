@@ -1,0 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: url('../assets/images/bike-photo-1.png');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+label{
+  color: white;
+}

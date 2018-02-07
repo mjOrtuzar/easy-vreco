@@ -1,1 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Easy-Vreco!</title>
+    <!-- CSS BOOTSTRAP 4 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/icons8-cyclist-50.png">
+    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="stylesheet" href="assets/main.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <label for="origen"><strong>Origen</strong></label>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <button class="btn btn-default bg-warning text-white" type="button">Encuéntrame</button>
+            </div>
+            <input type="text" class="form-control" placeholder="Introduce una ubicación" aria-label="origen" aria-describedby="basic-addon1">
+          </div>
+        </div>
+        <div class="col-6">
+          <label for="destino"><strong>Destino</strong></label>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Introduce una ubicación" aria-label="destino" aria-describedby="basic-addon1">
+            <div class="input-group-prepend">
+              <button class="btn btn-default bg-warning text-white" type="button">Ruta</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <div id="map">
+            <!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d832.5402650245939!2d-70.64225707084155!3d-33.41904509879891!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c5ebb9db324b%3A0xec27a99048bbbaec!2sBlanco+Recoleta+IF!5e0!3m2!1ses-419!2scl!4v1517926979847"
+              width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>-->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--apis google maps places-->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCTKa1z0dGZbp6r5RP_o_zGfz_I3B_JvZw&libraries=places&callback=initMap" async defer></script>
+	<!--libreria de lugares y direcciones googlemaps
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIK5qxxW44arXOIPnlFEnxXRUXXvcCpPo&libraries=places"></script>-->
+    <!-- JS REQUERIDOS BOOTSTRAP 4 -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+     
 
+	<script src="assets/js/app.js"></script>
+  </body>
+</html>
