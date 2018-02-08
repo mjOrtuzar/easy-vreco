@@ -17,17 +17,17 @@
           <label for="origen"><strong>Origen</strong></label>
           <div class="input-group mb-3">
             <div class="input-group-prepend">
-              <button class="btn btn-default bg-warning text-white" type="button">Encuéntrame</button>
+              <button id= "btnFindMe" class="btn btn-default bg-warning text-white" type="button">Encuéntrame</button>
             </div>
-            <input type="text" class="form-control" placeholder="Introduce una ubicación" aria-label="origen" aria-describedby="basic-addon1">
+            <input id=autocomplete type="text" class="form-control" placeholder="Introduce una ubicación" aria-label="origen" aria-describedby="basic-addon1">
           </div>
         </div>
         <div class="col-6">
           <label for="destino"><strong>Destino</strong></label>
           <div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Introduce una ubicación" aria-label="destino" aria-describedby="basic-addon1">
+            <input id="autocompleteTwo" type="text" class="form-control" placeholder="Introduce una ubicación" aria-label="destino" aria-describedby="basic-addon1">
             <div class="input-group-prepend">
-              <button class="btn btn-default bg-warning text-white" type="button">Ruta</button>
+              <button  id= "route" class="btn btn-default bg-warning text-white" type="button">Ruta</button>
             </div>
           </div>
         </div>
@@ -39,16 +39,16 @@
         </div>
       </div>
     </div>
-    <!--apis google maps places-->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCTKa1z0dGZbp6r5RP_o_zGfz_I3B_JvZw&libraries=places&callback=initMap" async defer></script>
-	<!--libreria de lugares y direcciones googlemaps
-	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIK5qxxW44arXOIPnlFEnxXRUXXvcCpPo&libraries=places"></script>-->
+    <!--apis google maps places
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCTKa1z0dGZbp6r5RP_o_zGfz_I3B_JvZw&libraries=places" ></script>-->
+  <!--libreria de lugares y direcciones googlemaps -->
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIK5qxxW44arXOIPnlFEnxXRUXXvcCpPo&libraries=places"></script>
     <!-- JS REQUERIDOS BOOTSTRAP 4 -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
      
 
-	<script src="assets/js/app.js"></script>
+  <script src="assets/js/app.js"></script>
   </body>
 </html>
